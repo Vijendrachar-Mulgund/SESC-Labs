@@ -4,4 +4,6 @@
 
 ### ✔ Week One - Installation of JAVA JDK, IDE and Setting up of Finance and Library Microservices
 
+### ✔ Week Two - Dependency Injection demo project
+
 This document will be refreshed weekly following the conclusion of each lab session.
