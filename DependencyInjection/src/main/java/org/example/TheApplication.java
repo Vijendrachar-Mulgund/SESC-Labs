@@ -18,7 +18,7 @@ public class TheApplication extends JFrame{
     int headX = 10, headY = 50, headXsize = 150, headYsize = 130;
     int eyeX = headX+(headXsize/4), eyeY, eyeSize = headXsize /10, eyeGap = headXsize/3;
     int mouthX = eyeX,  mouthY = eyeY + headY, mouthXsize = eyeSize*3, mouthYsize = eyeSize;
-    ArrayList<Object> Shapes;
+    ArrayList<Object> Shapes = new ArrayList<>();
 
 
     public TheApplication(Shape head, Shape lefteye, Shape righteye, Shape mouth)

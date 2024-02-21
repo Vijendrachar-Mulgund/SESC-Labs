@@ -22,7 +22,7 @@ public class TheApplication extends JFrame{
     int headX = 10, headY = 50, headXsize = 150, headYsize = 130;
     int eyeX = headX+(headXsize/4), eyeY = headY+(headYsize/5), eyeSize = headXsize /10, eyeGap = headXsize/3;
     int mouthX = eyeX,  mouthY = eyeY + headY, mouthXsize = eyeSize*3, mouthYsize = eyeSize;
-    ArrayList<Shape> Shapes;
+    ArrayList<Shape> Shapes = new ArrayList<>();
 
     public TheApplication()
     {
@@ -38,8 +38,6 @@ public class TheApplication extends JFrame{
         head.set(col, headX, headY, headXsize, headYsize);
         Shapes = new ArrayList<>();
         Shapes.add(head);
-
-        System.out.println(Shapes);
 
         //left eye
         lefteye = new Circle();
