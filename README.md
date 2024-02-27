@@ -21,3 +21,18 @@ In the Model-View-Controller (MVC) architecture, domain classes play a crucial r
 ### Would it be prudent to use the H2 database in a production setting? Why or why not?
 
 The short answer is NO. H2 is an in-memory database, which uses the system's memory (RAM) as opposed to the disk space that most traditional databases use. H2 is useful for caching.
+
+### Implementation
+
+Initialized the Spring Framework with the following dependencies
+
+- Spring Web
+- H2 Database
+- Lombok
+- Spring Data JPA
+
+Implemented the `CourseRepository`, `MiscellaneousBeans` as instructed in the lab sheet and inserted new records programmatically.
+
+![Database and JPA](/assets/jpa_1.png "JPA")
+
+![Database and JPA](/assets/jpa_2.png "JPA")
