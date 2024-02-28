@@ -6,4 +6,6 @@
 
 ### ✔ Week Two - Strong Coupling, Loose Coupling with Dependency Injection and Factory Pattern demo projects
 
+### ✔ Week Three - Data persistance with H2 Database and Spring JPA
+
 This document will be refreshed weekly following the conclusion of each lab session.
